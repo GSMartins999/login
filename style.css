@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    border: 0;
+}
+
+main{
+    background-image: url(./img/fundo.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    position: fixed;
+    color: red;
+    top: 0;
+    right: 0;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 20px;
+    width: 20vw;
+    height: 40vh;
+}
+
+input{
+    width: 80%;
+    height: 50%;
+    border-radius: 20px;
+    border: none;
+    text-align: left;
+    opacity: 100%;
+    color: white;
+}
+
+.botão{
+    background-color: green;
+    width: 10vw;
+    height: 20vh;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+}:hover{
+    cursor: pointer;
+    color: yellow;
+}
